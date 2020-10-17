@@ -1,0 +1,347 @@
+
+/*font-family start*/
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../montserrat/Montserrat-Bold.otf);
+}
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url(../montserrat/Montserrat-ExtraBold.otf);
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../montserrat/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../montserrat/Montserrat-SemiBold.otf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../montserrat/Montserrat-Medium.otf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../montserrat/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: Montserrat-Italic;
+  src: url(../montserrat/Montserrat-Italic.otf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../roboto/Roboto-Bold.ttf);
+}
+
+
+
+
+body {margin: 0px; padding: 0px;}
+*, body {font-family: 'Roboto-Regular', sans-serif; color: #000000;}
+
+h1, h2, h3, h4, h5, h6 {font-family: Montserrat-Bold;}
+
+/***************************END*************************/
+
+
+.topheading {background-color:#303539; padding:30px 0;}
+.topheading h2 {font-size:34px; color:#f9d100;font-family: Roboto-Regular;}
+
+.middleSection {background:#303539 url(../img/bg.jpg) no-repeat; background-size:cover; padding:40px 0; margin-top:130px;}
+
+.page-rightsection {background-color:#fff; position:relative; padding:0 0 130px 0; left:0; right:0; box-shadow:0 0 15px rgb(21 22 43 / 29%); border-radius:30px;top: -126px; margin-bottom: -60px;min-height:1200px;}
+
+.rightsectionHead {
+	position: relative;
+	background: #15162b;
+	text-align:center;
+	color:#fff;
+	border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+	padding: 20px 0;
+    font-size:26px;
+	font-family: Montserrat-Bold;
+}
+.rightsectionHead:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(21, 22, 43, 0);
+	border-top-color: #15162b;
+	border-width: 15px;
+    margin-left: -15px;
+}
+
+.aftertxt:after {
+	position:absolute;
+	content:"per month";
+	right:0;
+	top:9px;
+	width:90px;
+	border-left:1px solid #ccc;
+	text-align: center;
+	font-size: 14px;
+    line-height: 19px;
+    height: 24px;
+    color: #666;
+	}
+	
+.aftertxt .form-control {padding-right:110px;}
+
+.headingstyle01 { background-color:#ebebeb; border-radius:50px; text-align:center; max-width:400px; margin:30px auto; color:#000;padding: 8px 0;font-family: Montserrat-Bold; font-size:20px}
+.calcsection {padding:0 20px;}
+.formextra {position:relative;}
+.formextra:before {position:absolute; content:"$"; left:0; top:9px; width:40px; border-right:1px solid #ccc;text-align: center;}
+.form-group label {font-family: Montserrat-SemiBold;display: block;font-size: 14px;}
+.formextra .form-control {padding-left:50px;}
+.page-rightsection .form-control {height:44px;}
+.page-rightsection textarea.form-control {height:auto;}
+.switchBTN {
+	display: inline-block;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+	}
+.switch-toggle {
+   float: left;
+   background: #f5f5f5;
+   height:38px;
+   border-radius: 4px;
+}
+.switch-toggle input {
+  position: absolute;
+  opacity: 0;
+}
+.switch-toggle input + label {
+  padding: 7px;
+  float:left;
+  color: #000;
+  cursor: pointer;
+}
+.switch-toggle input:checked + label {
+  background: #2290ff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.btn-sty .btn-primary { background-color:#15162b; border-color:#15162b; padding:10px;font-family: Montserrat-Bold; font-size:20px;}
+
+.calleftsection {padding:20px 0;}
+ul.stepscon {text-align:center;}
+ul.stepscon li {text-align:center; position:relative; width:150px;}
+ul.stepscon li i {font-size:40px;}
+ul.stepscon li i, ul.stepscon li span {color:#fff;}
+ul.stepscon li span {display:block; font-size:12px;}
+.twentyper {width:100px; position:relative;}
+.twentyper:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    top: -41px;
+    border-radius: 5px;
+}
+
+ul.stepscon li.checkfill i, ul.stepscon li.checkfill span {color:#ffd700;}
+.stepscon li.list-inline-item:after {
+    position: absolute;
+    content: "";
+    width: 55px;
+    background: #fff;
+    height: 5px;
+    left: -6px;
+    top: 15px;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.stepscon li.list-inline-item:before {
+    position: absolute;
+    content: "";
+    height: 5px;
+    background-color: #fff;
+    width: 55px;
+    right: -6px;
+    top: 15px;
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.stepscon li.linefill:before, .stepscon li.linefill:after {background-color:#ffd700;}
+.stepscon li.list-inline-item:first-child:after {display:none;}
+.stepscon li.list-inline-item:last-child:before {display:none;}
+.caltxtleft p {font-size:24px; color:#fff; letter-spacing:1px; font-family: Montserrat-Regular}
+.anotherplan a, .anotherplan a i {color:#2290ff;}
+.anotherplan a:hover, .anotherplan a:hover i {color:#15162b; text-decoration:none;}
+.btn-sty .btn-primary:hover {background-color:#fff; color:#15162b;}
+.btn-sty {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.incomePro {background-color:#eee; padding:20px 20px 40px 20px; margin-top:40px; border-radius:8px;}
+
+.incomePro h4 {text-align:center;font-family: Montserrat-Bold; font-size:20px;}
+.protectionchart {position:relative; margin-top:60px;}
+.protectionchart:before {position:absolute; left:0; bottom:-20px; content:"0%"; font-size:14px;}
+.protectionchart:after {position:absolute; right:0; bottom:-20px; content:"100%"; font-size:14px;}
+.firstbox {background-color:#ffc0c0; height:30px; position:relative;}
+.secondbox {background-color:#fdf4a4; height:30px; position:relative;}
+.thirdbox {background-color:#a9fdac; height:30px; position:relative;}
+.inco-per {position:absolute; right:-15px; bottom:-20px; font-size:14px;}
+.analy-per {position:absolute; top:-40px; left:2%; background:#ffd700; padding:3px 10px; border-radius:40px;}
+.analy-per:before {background:url(../img/down-arrow.png) no-repeat; width:16px; height:23px; bottom:-25px; position:absolute; content:""; left:38%;}
+
+.calcsection h5 {font-size:16px; margin-top:30px; color:#666; margin-bottom:20px;}
+.scaletable th, .scaletable td {text-align:center;}
+.scaletable tbody tr {background-color:#e5e9ec;}
+.li-calc .form-control {width: auto;}
+.investtbl th, .investtbl td {font-size: 12px;vertical-align: middle !important;}
+.li-calc p {font-size: 14px;}
+.li-calc h4 {font-size: 20px;}
+.intantli .form-group label, .intantli .form-group select {font-size: 13px;}
+.findinsuplan .btn-sty .btn-primary {font-size: 14px;}
+.findinsuplan .btn-sty {bottom: 13px;}
+ul.list-sty {text-align: center; margin-bottom: 0px;}
+ul.list-sty .list-inline-item {margin: 0 8px; font-size: 14px;}
+.filterdown {padding-left: 15px; padding-right: 15px; font-size: 12px;border-bottom: 1px solid #eee;
+  padding-bottom: 10px;}
+.sortBy {
+  width: 170px;
+}
+.sortBy select.form-control {
+    font-size: 12px;
+    padding: 0 5px;
+    height: 26px !important;
+    line-height: 26px;
+    margin-left: 5px;
+}
+
+.carriersLists table td p, .carriersLists table td span {font-size: 11px; color: #959595; display: block;}
+.carriersLists table td h6 {font-size: 12px; font-family: Roboto-Regular; margin-bottom: 2px;}
+.Ratesmonth {text-align:center; font-size: 12px;}
+.Ratesmonth span {font: 11px;}
+.carriersLists table td p {margin-bottom: 5px;}
+.carriersLists table tr {border-bottom: 1px solid #eee;}
+.carriersLists table td {vertical-align: top; border-top: 0; border-right: 1px solid #eee;}
+.carriersLists table td:last-child {border-radius: 0px;}
+.carriersLists table td:first-child, .carriersLists table td:nth-child(2) {text-align: center; vertical-align: middle;}
+
+.carriersLists table {min-width: 540px; margin-bottom: 0px;}
+.showmore-btn {
+  text-align: center;
+}
+
+.showmore-btn .btn-default {
+  background-color: #fecb16;
+  border: 1px solid #fecb16;;
+  color: #000;
+  border-radius: 30px/30px;
+  height: 30px;
+  line-height: 27px;
+  font-size: 12px;
+  display: inline-block;
+  width: 190px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  font-family: Montserrat-Bold;
+}
+.showmore-btn .btn-default:hover {background-color: #fff; color: #fecb16; text-decoration: none;}
+
+
+/***********************custom radio***********************/
+
+.intantli [type="radio"]:checked,
+.intantli [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.intantli [type="radio"]:checked + label,
+.intantli [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.intantli [type="radio"]:checked + label:before,
+.intantli [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+.intantli [type="radio"]:checked + label:after,
+.intantli [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #fecb16;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.intantli [type="radio"]:not(:checked) + label:after {
+  background: #eee;
+}
+.intantli [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*****************************end****************************/
+
+.othertxt.caltxtleft p.clickget {color:#ffd700;font-family: Montserrat-Bold;}
+.othertxt.caltxtleft p {font-size: 30px;}
+.othertxt.caltxtleft p.smalltxt {font-size: 20px;}
+
+@media (max-width:1023px) {
+.middleSection {margin-top: 40px;}	
+.page-rightsection {top:0px; margin-bottom:0px; margin-top:0px;min-height: 100%;}
+.middleSection {max-height:none !important;}
+.calleftsection {padding: 0px 0;}
+.topheading h2 {font-size:28px;}
+.caltxtleft p {font-size:20px;}
+.stepscon li.list-inline-item:after, .stepscon li.list-inline-item:before {width: 35px;}
+ul.stepscon li {width: 115px;}
+.donloadop+div .table {min-width: 540px;}
+}
+
+@media (max-width:767px) {
+  .findinsuplan .btn-sty {
+    bottom: 13px;
+    position: static;
+}
+.donloadop {
+  margin-top: 10px;
+}
+}
