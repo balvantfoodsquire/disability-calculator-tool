@@ -316,7 +316,19 @@ ul.list-sty .list-inline-item {margin: 0 8px; font-size: 14px;}
     -webkit-transform: scale(1);
     transform: scale(1);
 }
-
+.headtext{
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #565353;
+}
+.headtext span{
+ color: #2222c9;
+}
 
 /*****************************end****************************/
 
