@@ -145,7 +145,17 @@ h1, h2, h3, h4, h5, h6 {font-family: Montserrat-Bold;}
 ul.stepscon {text-align:center;}
 ul.stepscon li {text-align:center; position:relative; width:150px;}
 ul.stepscon li i {font-size:40px;}
-ul.stepscon li i, ul.stepscon li span {color:#fff;}
+ul.stepscon li i, ul.stepscon li span {
+font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
 ul.stepscon li span {display:block; font-size:12px;}
 .twentyper {width:100px; position:relative;}
 .twentyper:before {
@@ -159,7 +169,17 @@ ul.stepscon li span {display:block; font-size:12px;}
     border-radius: 5px;
 }
 
-ul.stepscon li.checkfill i, ul.stepscon li.checkfill span {color:#ffd700;}
+ul.stepscon li.checkfill i, ul.stepscon li.checkfill span {
+    font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd700;
+}
 .stepscon li.list-inline-item:after {
     position: absolute;
     content: "";
@@ -376,6 +396,9 @@ ul.list-sty .list-inline-item {margin: 0 8px; font-size: 14px;}
   transform: rotate(45deg);
 }
 
+.circle-img{
+  width: 20%
+}
 /*****************************end****************************/
 
 .othertxt.caltxtleft p.clickget {color:#ffd700;font-family: Montserrat-Bold;}
